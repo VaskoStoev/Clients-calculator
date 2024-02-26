@@ -1,0 +1,36 @@
+@media (min-width: 1024px) {
+  input {
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 8px;
+  }
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  .parent-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+input {
+  height: 40px;
+  border-radius: 4px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
